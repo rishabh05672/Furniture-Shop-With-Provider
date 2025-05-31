@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:furniture_shop_app/app_started.dart';
+import 'package:furniture_shop_app/main_screen.dart';
 import 'package:furniture_shop_app/providers/app_state_provider.dart';
 import 'package:furniture_shop_app/providers/auth_provider.dart';
 import 'package:furniture_shop_app/screens/auth/sign_in_screen.dart';
@@ -35,8 +36,9 @@ class MyApp extends StatelessWidget {
         title: 'Furniture Shop',
         theme: AppTheme.lightTheme,
         home: //AppStarted(),
-            SignInScreen(),
-        // SignUpScreen(),
+            // SignInScreen(),
+            // SignUpScreen(),
+            MainScreen(),
       ),
     );
   }
